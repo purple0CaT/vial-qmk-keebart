@@ -108,8 +108,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_NVIM] = LAYOUT_split_4x6_5(
       KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,                    KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,  KC_F12,
-      _______, _______, MS_BTN2, MS_UP, MS_BTN1, _______,                   KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_BSLS, _______,
-      _______, _______, MS_LEFT, MS_DOWN, MS_RGHT, _______,                   KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, _______, _______,
+      _______, _______, _______, _______, _______, _______,                   KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_BSLS, _______,
+      _______, _______, _______, _______, _______, _______,                   KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, _______, _______,
       _______, _______, KC_X,    KC_C,    _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______,
                  MO(_MDIA), _______, _______, _______, _______,             _______, _______, TOGGLE_OS, _______, MO(_MDIA)
 )
